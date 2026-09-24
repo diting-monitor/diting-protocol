@@ -1,0 +1,35 @@
+# Compiled test binaries and profiling data
+*.test
+*.out
+coverage.*
+*.prof
+*.pprof
+
+# Binaries (in case of accidental local builds)
+bin/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Local Go workspace files (prevent accidental commit of root multi-module work files)
+go.work
+go.work.sum
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git temporary files
+*.patch
+*.diff
+*.orig
